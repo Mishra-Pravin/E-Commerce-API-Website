@@ -1,0 +1,86 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 6px 0;
+    display: flex;
+    align-items: center;
+    width: 100%; /* Take the full width of the viewport */
+    top: 0; /* Stick to the top */
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  header nav {
+    margin-left: auto;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    margin-right: 20px;
+    display: inline;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+  
+  header nav ul li a:hover {
+    color: #007bff;
+  }
+  
+  /* Space for Content Below the Fixed Header */
+  
+  main {
+    margin-top: 70px; /* Adjust this value based on the header's height */
+  }
+  /* Footer Styles */
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+  }
+  
+
+  /* Unique Style for App Title */
+  
+  .app-title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+  }
+  
+  /* Unique Style for Router Links */
+  
+  .router-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+  
+  .router-link:hover {
+    color: #0056b3;
+  }
