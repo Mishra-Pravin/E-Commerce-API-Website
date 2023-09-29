@@ -1,6 +1,8 @@
 # E-Commerce Website with Angular Material
 
 This is an E-Commerce website built using Angular and Angular Material. It connects to an API to fetch product information and provides a user-friendly interface for browsing and purchasing products.
+![image](https://github.com/Mishra-Pravin/E-Commerce-API-Website/assets/97659395/c30bca5f-9c6a-495b-98db-488f3b91665b)
+
 
 ## Features
 
@@ -73,4 +75,3 @@ ng serve
 
 
 
-![image](https://github.com/Mishra-Pravin/E-Commerce-API-Website/assets/97659395/2e0b1bff-0ca1-4fbe-8f94-7d86b6fae604)
